@@ -82,6 +82,31 @@ body{
     line-height: 21px;
 }
 
+@media(max-width:420px) {
+    .app{
+        padding: 1rem;
+    }
+    .header{
+        font-size: 2.5rem;
+    } 
+    .container{
+        width: 85%;
+        padding: 1rem;
+    }
+    .submit-btn{
+        transform: scale(.9);
+    }
+    .input-box{
+        padding: .5rem;
+        font-size: 12px;
+    }
+    .solution{
+        padding: .5rem;
+    }
+    .solution p{
+        font-size: 12px;
+    }
+}
 
 
 
