@@ -14,9 +14,7 @@ function App() {
     try {
       setIsLoading(true)
       setResponse('')
-      // Generate content using the model
       const result = await model.generateContent(userQuestion);
-      // Assuming `result` contains the response text
       setResponse(result.response.text);
     } catch (error) {
       console.error('Error fetching AI response:', error);
@@ -38,7 +36,6 @@ function App() {
         onChange={(e) => setUserQuestion(e.target.value)}
         placeholder="Ask a question"
       />
-      
       <button className='submit-btn' onClick={Reply}>{isLoading ? 'Loading...': 'Submit'}</button>
 
       </div>
