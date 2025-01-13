@@ -67,7 +67,7 @@ body{
 }
 
 .solution{
-    white-space: pre-wrap;
+    
     display: flex;
     flex-direction: column;
     border: 2px solid grey;
@@ -78,6 +78,7 @@ body{
 }
 
 .solution p{
+    white-space: pre-wrap;
     color: aliceblue;
     line-height: 21px;
 }
