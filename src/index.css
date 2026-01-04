@@ -109,6 +109,21 @@ body{
     }
 }
 
+.listen{
+    width: 15%;
+    height: 3rem;
+    background-color: #000000;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 5px 0px #000000;
+    transition: all .5s ease;
+}
+.listen:active{
+    transform: scale(.9);
+    box-shadow: 1px 1px 3px 0px #000000;
+}
 
 
 
